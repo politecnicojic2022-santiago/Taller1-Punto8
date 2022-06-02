@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cantidades">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="cantidad">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:float">
+                                <xs:attribute name="divisa" type="xs:string"></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
