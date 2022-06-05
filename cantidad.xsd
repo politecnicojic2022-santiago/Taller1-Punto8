@@ -6,7 +6,7 @@
                     <xs:complexType>
                         <xs:simpleContent>
                             <xs:extension base="xs:float">
-                                <xs:attribute name="divisa" type="xs:string"></xs:attribute>
+                                <xs:attribute name="divisa" type="xs:string" use="required"></xs:attribute>
                             </xs:extension>
                         </xs:simpleContent>
                     </xs:complexType>
